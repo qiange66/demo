@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0, maximum-scale=1.0, user-scalable=0,minimum-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <title>啤酒乐园</title>
+    <style>
+        *{
+            margin:0;
+            padding:0;
+        }
+        .list{
+            padding:20px;
+        }
+        .text-center tr th{
+            text-align: center;
+        }
+        .table-striped>tbody>tr:nth-of-type(odd){
+            background-color: #d9edf7;
+        }
+        .header{
+            margin-bottom:20px;
+        }
+        .btn{
+            padding:3px 10px;
+            background:#d9edf7;
+        }
+    </style>
+</head>
+<body>
+   <div class="list">
+        <div class="header">
+            <input type="datetime-local" class="time-choose" id="start" value="2017-09-10T13:59:59"/>
+            <input type="datetime-local" class="time-choose" id="end" value="2017-09-11T14:59:59"/>
+            <input type="button" class="btn" value="搜索"/>
+        </div>
+        <table class="table table-bordered text-center list-table">
+            <tr>
+                <td>中奖</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <td>盈利</td>
+                <td>2</td>
+            </tr>
+        </table>
+   </div>
+  <script src="js/jquery-3.2.1.js"></script>
+  <script>
+
+  </script>
+</body>
+</html>
